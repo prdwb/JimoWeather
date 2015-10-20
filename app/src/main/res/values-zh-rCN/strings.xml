@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">即陌天气</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_map">地图位置</string>
+    <string name="action_share">分享</string>
+
+    <string name="title_activity_detail">详细信息</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="pref_location_label">地点</string>
+
+    <string name="pref_enable_notifications_label">天气通知</string>
+
+    <string name="pref_enable_notifications_true">开启</string>
+    <string name="pref_enable_notifications_false">关闭</string>
+
+    <string name="pref_units_label">温度单位</string>
+
+    <string name="pref_units_label_metric">公制</string>
+
+    <string name="pref_units_label_imperial">英制</string>
+
+    <string name="today">今天</string>
+
+    <string name="tomorrow">明天</string>
+    <string name="format_share">
+        <xliff:g id="date">%1$s</xliff:g>日在<xliff:g id="location">%2$s</xliff:g>的天气:
+        最高温 <xliff:g id="high">%3$s</xliff:g> 最低温
+        <xliff:g id="low">%4$s</xliff:g></string>
+    <string name="format_humidity">湿度: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+    <string name="format_notification">今日天气: <xliff:g id="condition">%1$s</xliff:g> 最高温: <xliff:g id="high">%2$s</xliff:g> 最低温: <xliff:g id="low">%3$s</xliff:g></string>
+    <string name="format_pressure">气压: <xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+    <string name="format_wind_kmh">风速: <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="format_wind_mph">风速: <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="format_full_friendly_date"><xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g> 日</string>
+    <string name="action_refresh">刷新</string>
+
+</resources>
